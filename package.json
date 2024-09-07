@@ -6,7 +6,6 @@
     "scripts": {
         "start": "node src/server.js",
         "dev": "nodemon",
-        "postinstall": "node updateJson.js",
         "format:check": "prettier --check .",
         "format:write": "prettier --write .",
         "lint:check": "eslint .",
